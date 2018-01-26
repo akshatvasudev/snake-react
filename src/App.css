@@ -1,0 +1,36 @@
+#root {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+header {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+.gameOver {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear {
+    clear: both;
+}
+
+span {
+    width: 35px;
+    height: 30px;
+    float: left;
+}
